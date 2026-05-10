@@ -1,0 +1,85 @@
+[
+  {
+    "route": "/",
+    "firstLoadUncompressedJsBytes": 561522,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/0li8zcux.~r21.js",
+      ".next/static/chunks/0d3shmwh5_nmn.js",
+      ".next/static/chunks/15jbb_vi_kshy.js",
+      ".next/static/chunks/00gq-v0e07i1q.js",
+      ".next/static/chunks/02i7dfk78~t~2.js",
+      ".next/static/chunks/0e-wrhqh4h3r5.js",
+      ".next/static/chunks/0n~dq4kpx9xxx.js",
+      ".next/static/chunks/turbopack-0t7ab.f9o-lrv.js"
+    ]
+  },
+  {
+    "route": "/consulting",
+    "firstLoadUncompressedJsBytes": 556063,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/0li8zcux.~r21.js",
+      ".next/static/chunks/0d3shmwh5_nmn.js",
+      ".next/static/chunks/0x~rq588jjxjk.js",
+      ".next/static/chunks/00gq-v0e07i1q.js",
+      ".next/static/chunks/02i7dfk78~t~2.js",
+      ".next/static/chunks/0e-wrhqh4h3r5.js",
+      ".next/static/chunks/0n~dq4kpx9xxx.js",
+      ".next/static/chunks/turbopack-0t7ab.f9o-lrv.js"
+    ]
+  },
+  {
+    "route": "/about",
+    "firstLoadUncompressedJsBytes": 555638,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/0li8zcux.~r21.js",
+      ".next/static/chunks/0d3shmwh5_nmn.js",
+      ".next/static/chunks/0r27.3r9f_lfm.js",
+      ".next/static/chunks/00gq-v0e07i1q.js",
+      ".next/static/chunks/02i7dfk78~t~2.js",
+      ".next/static/chunks/0e-wrhqh4h3r5.js",
+      ".next/static/chunks/0n~dq4kpx9xxx.js",
+      ".next/static/chunks/turbopack-0t7ab.f9o-lrv.js"
+    ]
+  },
+  {
+    "route": "/trade",
+    "firstLoadUncompressedJsBytes": 555267,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/0li8zcux.~r21.js",
+      ".next/static/chunks/0d3shmwh5_nmn.js",
+      ".next/static/chunks/04umwfyxfn8vd.js",
+      ".next/static/chunks/00gq-v0e07i1q.js",
+      ".next/static/chunks/02i7dfk78~t~2.js",
+      ".next/static/chunks/0e-wrhqh4h3r5.js",
+      ".next/static/chunks/0n~dq4kpx9xxx.js",
+      ".next/static/chunks/turbopack-0t7ab.f9o-lrv.js"
+    ]
+  },
+  {
+    "route": "/tourism",
+    "firstLoadUncompressedJsBytes": 554407,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/0li8zcux.~r21.js",
+      ".next/static/chunks/0d3shmwh5_nmn.js",
+      ".next/static/chunks/0nvld5y5qjq8z.js",
+      ".next/static/chunks/00gq-v0e07i1q.js",
+      ".next/static/chunks/02i7dfk78~t~2.js",
+      ".next/static/chunks/0e-wrhqh4h3r5.js",
+      ".next/static/chunks/0n~dq4kpx9xxx.js",
+      ".next/static/chunks/turbopack-0t7ab.f9o-lrv.js"
+    ]
+  },
+  {
+    "route": "/_not-found",
+    "firstLoadUncompressedJsBytes": 533819,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/0li8zcux.~r21.js",
+      ".next/static/chunks/0d3shmwh5_nmn.js",
+      ".next/static/chunks/00gq-v0e07i1q.js",
+      ".next/static/chunks/02i7dfk78~t~2.js",
+      ".next/static/chunks/0e-wrhqh4h3r5.js",
+      ".next/static/chunks/0n~dq4kpx9xxx.js",
+      ".next/static/chunks/turbopack-0t7ab.f9o-lrv.js"
+    ]
+  }
+]

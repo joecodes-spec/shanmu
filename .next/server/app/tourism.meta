@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/tourism/layout,_N_T_/tourism/page,_N_T_/tourism"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/tourism/__PAGE__",
+    "/tourism",
+    "/_index",
+    "/_head"
+  ]
+}
