@@ -1,9 +1,11 @@
 import Header from "@/components/layout/Header";
 import SideNav from "@/components/layout/SideNav";
 import FooterInfo from "@/components/layout/FooterInfo";
-import TradeHero from "@/components/trade/TradeHero";
+import TradeHeroNew from "@/components/trade/TradeHeroNew";
 import TradeIcons from "@/components/trade/TradeIcons";
+import TradeShowcase from "@/components/trade/TradeShowcase";
 import TradeCategories from "@/components/trade/TradeCategories";
+import TradeProcess from "@/components/trade/TradeProcess";
 import TradeExport from "@/components/trade/TradeExport";
 
 export const metadata = {
@@ -17,9 +19,11 @@ export default function TradePage() {
       <Header />
       <SideNav />
 
-      <TradeHero />
+      <TradeHeroNew />
       <TradeIcons />
+      <TradeShowcase />
       <TradeCategories />
+      <TradeProcess />
       <TradeExport />
 
       <FooterInfo />

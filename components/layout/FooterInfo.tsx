@@ -44,15 +44,16 @@ export default function FooterInfo() {
               <div className="flex flex-col gap-6 text-sm md:text-base font-sans text-white/90">
                 <div>
                   <p className="font-bold text-white mb-1 uppercase tracking-wider">Ghana</p>
-                  <p className="whitespace-nowrap">Accra Digital Center</p>
+                  <p className="whitespace-nowrap">Central Region, Kasoa</p>
                 </div>
                 <div>
                   <p className="font-bold text-white mb-1 uppercase tracking-wider">China</p>
-                  <p className="whitespace-nowrap">Hangzhou, Zhejiang</p>
+                  <p className="whitespace-nowrap">Sichuan Province, Chengdu</p>
                 </div>
                 <div className="mt-2">
                   <span className="text-[#dfa63a] text-[8px] font-bold tracking-widest uppercase block mb-1">{t.footer.enquiries}</span>
-                  <p className="font-bold text-white lowercase whitespace-nowrap overflow-visible">isaackwesisam@shanmuafrica.com</p>
+                  <p className="font-bold text-white lowercase whitespace-nowrap overflow-visible mb-1">isaackwesisam@shanmuafrica.com</p>
+                  <p className="font-bold text-white whitespace-nowrap overflow-visible">+233547281509</p>
                 </div>
               </div>
             </div>
@@ -77,10 +78,22 @@ export default function FooterInfo() {
                   {t.footer.socials}
                 </span>
                 <div className="flex gap-6 text-white/90 mb-10">
-                  <a href="#" className="hover:text-[#dfa63a] transition-all" aria-label="X">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg>
+                  <a 
+                    href="https://www.tiktok.com/@shanmu.enterprise?_r=1&_t=ZS-96MTQtA7Vw0" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="hover:text-[#dfa63a] transition-all" 
+                    aria-label="TikTok"
+                  >
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.17-2.89-.6-4.13-1.47-.14-.08-.26-.17-.38-.27v7.34c0 5.54-4.46 10.03-10.02 10.03-4.3 0-8.02-2.69-9.42-6.5-.4-1.08-.6-2.23-.6-3.4 0-5.54 4.46-10.02 10.02-10.02.1 0 .2 0 .3.01V7.12c-1.32.12-2.52.74-3.41 1.7-.89.96-1.39 2.24-1.39 3.58 0 2.91 2.37 5.28 5.28 5.28.18 0 .35-.01.53-.04.18-.03.36-.07.53-.11 1.74-.43 3.01-1.99 3.01-3.84V.02z"/></svg>
                   </a>
-                  <a href="#" className="hover:text-[#dfa63a] transition-all" aria-label="Instagram">
+                  <a 
+                    href="https://www.instagram.com/shanmuenterprise?igsh=MTlzdHo1amNrNmdiMA%3D%3D&utm_source=qr" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="hover:text-[#dfa63a] transition-all" 
+                    aria-label="Instagram"
+                  >
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z" /></svg>
                   </a>
                 </div>

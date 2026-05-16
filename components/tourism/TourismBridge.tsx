@@ -6,7 +6,7 @@ export default function TourismBridge() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative w-full bg-[#F5F3ED] text-[#1c1c1c] py-24 md:py-32 px-6 overflow-hidden">
+    <section id="tourism-bridge" className="relative w-full bg-[#F5F3ED] text-[#1c1c1c] py-24 md:py-32 px-6 overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-24">
         {/* Left Side: Text Content */}
         <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">

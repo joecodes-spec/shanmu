@@ -12,7 +12,7 @@ const images = [
   { src: "/images/consult-1.jpeg", alt: "Market Insights" },
   { src: "/images/edu-1.jpeg", alt: "Education Placement" },
   { src: "/images/edu-2.jpeg", alt: "Scholarship Support" },
-  { src: "/images/sam-1.jpeg", alt: "Shanmu Enterprise" },
+  { src: "/images/swapi.jpg", alt: "Shanmu Enterprise" },
 ];
 
 export default function MissionSection() {

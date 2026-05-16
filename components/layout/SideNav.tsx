@@ -8,35 +8,56 @@ import { useTranslation } from "@/context/LanguageContext";
 export default function SideNav() {
   const { t } = useTranslation();
   const pathname = usePathname();
-  const [isDarkText, setIsDarkText] = useState(false);
+  const [navTheme, setNavTheme] = useState<'default' | 'dark' | 'yellow'>('default');
 
   const navItems = [
-    { label: t.nav.about, href: "/about" },
     { label: t.nav.trade, href: "/trade" },
+    { label: t.nav.about, href: "/about" },
     { label: t.nav.tourism, href: "/tourism" },
     { label: t.nav.consulting, href: "/consulting" },
   ];
 
   useEffect(() => {
     const handleScroll = () => {
+      const yellowSections = [
+        document.getElementById("trade-hero-new"),
+        document.getElementById("tourism-hero"),
+        document.getElementById("tourism-cta")
+      ];
+      
       const lightSections = [
         document.getElementById("intelligence-section"),
-        document.getElementById("mission-section")
+        document.getElementById("mission-section"),
+        document.getElementById("tourism-bridge"),
+        document.getElementById("consultancy-edu")
       ];
 
-      let isOverLightSection = false;
+      let isOverYellow = false;
+      let isOverLight = false;
 
-      for (const section of lightSections) {
-        if (section) {
-          const rect = section.getBoundingClientRect();
-          if (rect.top <= window.innerHeight * 0.6 && rect.bottom >= window.innerHeight * 0.2) {
-            isOverLightSection = true;
-            break;
+      const checkIntersection = (sections: (HTMLElement | null)[]) => {
+        for (const section of sections) {
+          if (section) {
+            const rect = section.getBoundingClientRect();
+            // Checking if the nav (around top 10%) is over the section
+            if (rect.top <= window.innerHeight * 0.2 && rect.bottom >= window.innerHeight * 0.1) {
+              return true;
+            }
           }
         }
-      }
+        return false;
+      };
 
-      setIsDarkText(isOverLightSection);
+      isOverYellow = checkIntersection(yellowSections);
+      isOverLight = checkIntersection(lightSections);
+
+      if (isOverYellow) {
+        setNavTheme('yellow');
+      } else if (isOverLight) {
+        setNavTheme('dark');
+      } else {
+        setNavTheme('default');
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -56,8 +77,8 @@ export default function SideNav() {
                 href={item.href}
                 className={`text-[10px] md:text-[11px] font-black tracking-[0.3em] uppercase transition-all duration-500 hover:opacity-70 ${
                   isActive 
-                    ? "text-[#dfa63a]" 
-                    : isDarkText ? "text-[#1a1a1a]" : "text-white"
+                    ? navTheme === 'yellow' ? "text-[#1c1c1c]" : "text-[#dfa63a]" 
+                    : navTheme === 'default' ? "text-white" : "text-[#1c1c1c]"
                 }`}
                 style={{
                   writingMode: "vertical-rl",
@@ -68,7 +89,9 @@ export default function SideNav() {
                 {item.label}
               </Link>
               {isActive && (
-                <div className="w-1.5 h-1.5 rounded-full bg-[#dfa63a] animate-pulse" />
+                <div className={`w-1.5 h-1.5 rounded-full animate-pulse ${
+                  navTheme === 'yellow' ? "bg-[#1c1c1c]" : "bg-[#dfa63a]"
+                }`} />
               )}
             </li>
           );

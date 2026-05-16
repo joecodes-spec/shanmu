@@ -28,9 +28,9 @@ export default function TradeIcons() {
       {/* Right Image */}
       <div className="w-full md:w-1/2 relative bg-black/5">
         <img 
-          src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1200" 
-          alt="Market Icons" 
-          className="w-full h-full object-cover"
+          src="/images/bus-2.jpeg" 
+          alt="Precision Sourcing" 
+          className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
         />
       </div>
     </section>

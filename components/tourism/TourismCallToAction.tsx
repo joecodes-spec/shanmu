@@ -6,7 +6,7 @@ export default function TourismCallToAction() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative w-full bg-[#dfa63a] py-20 md:py-32 px-6">
+    <section id="tourism-cta" className="relative w-full bg-[#dfa63a] py-20 md:py-32 px-6">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-5xl font-serif text-[#1c1c1c] mb-8 leading-tight">
           {t.tourism_page.cta.title_part1} <br /> <span className="italic">{t.tourism_page.cta.title_part2}</span>

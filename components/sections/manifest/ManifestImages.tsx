@@ -3,7 +3,7 @@ import React from "react";
 const images = [
   {
     ref: "REF: IX-4401",
-    src: "/images/bus-1.jpeg",
+    src: "/images/observe-export-import.jpg",
     alt: "Import and Export",
   },
   {

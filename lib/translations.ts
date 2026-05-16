@@ -149,7 +149,7 @@ export const translations = {
       },
       welcome: {
         title: "Welcome to the Global Network",
-        description: "At Shanmu, we believe that cultivating meaningful connections across borders is transformative. Seeing the world through diverse perspectives makes us wiser. It opens us up. When we trade, travel, learn, laugh and authentically share with our global partners — we amplify one another.",
+        description: "At Shanmu, we believe that cultivating meaningful connections across borders is transformative. Seeing the world through diverse perspectives makes us wiser. It opens us up. When we trade, travel, learn, laugh and authentically share with our global partners, we amplify one another.",
       },
       services: {
         title: "Trade and Travel, By Experts",
@@ -162,7 +162,7 @@ export const translations = {
         button: "SOUND LIKE YOU? THIS WAY.",
       },
       founder: {
-        quote: "For me, global trade and travel are the ultimate teachers. I love the way they broaden your perspective — you're exposed to new cultures, markets, people, and ideas. But, I also love what cross-border exchange teaches you about humanity - no matter how different we seem on the surface, we all are really similar at our core. We all want to thrive, connect, and have a voice - that's universal.",
+        quote: "For me, global trade and travel are the ultimate teachers. I love the way they broaden your perspective, you're exposed to new cultures, markets, people, and ideas. But, I also love what cross-border exchange teaches you about humanity, no matter how different we seem on the surface, we all are really similar at our core. We all want to thrive, connect, and have a voice, that's universal.",
         author: "FOUNDER, SHANMU",
       }
     },
@@ -175,20 +175,21 @@ export const translations = {
     },
     trade_page: {
       hero: {
+        subtitle: "Global Sourcing",
         title_part1: "New ",
         title_part2: "Arrivals.",
-        description: "From high-performance vehicles to luxury fashion — we source and deliver exactly what you need, when you need it.",
+        description: "From high-performance vehicles to luxury fashion, we source and deliver exactly what you need, when you need it.",
         buttons: {
           imports: "Shop Imports",
           export: "Export Inquiry",
         }
       },
       icons: {
-        title: "For the \nMarket Icons.",
-        description: "A curated selection of imports based strictly on your vision. From high-end tech to artisanal fashion, we bridge the gap between global manufacturers and your doorstep.",
+        title: "Curated \nSourcing.",
+        description: "We bridge the gap between global manufacturers and your doorstep. Our sourcing goes beyond commodities, we procure the building blocks of your lifestyle with absolute precision.",
         buttons: {
-          women: "Shop Women's",
-          men: "Shop Men's",
+          women: "Fashion & Lifestyle",
+          men: "Tech & Innovation",
         }
       },
       categories: {
@@ -204,7 +205,7 @@ export const translations = {
         subtitle: "Export Solutions",
         title_part1: "Out of ",
         title_part2: "Ghana.",
-        description: "From raw commodities to artisanal finished goods — we facilitate the legal and seamless export of Ghanaian excellence to global markets. We handle the logistics, you provide the product.",
+        description: "From raw commodities to artisanal finished goods, we facilitate the legal and seamless export of Ghanaian excellence to global markets. We handle the logistics, you provide the product.",
         steps: [
           "Legality Check",
           "Logistics Prep",
@@ -429,7 +430,7 @@ export const translations = {
       },
       welcome: {
         title: "欢迎加入全球网络",
-        description: "在山姆，我们相信建立跨国界的深厚联系具有变革意义。通过多元视角看世界会让我们变得更睿智、更开阔。当我们与全球合作伙伴进行贸易、旅游、学习、欢笑并真诚分享时——我们也在彼此成就。",
+        description: "在山姆，我们相信建立跨国界的深厚联系具有变革意义。通过多元视角看世界会让我们变得更睿智、更开阔。当我们与全球合作伙伴进行贸易、旅游、学习、欢笑并真诚分享时，我们也在彼此成就。",
       },
       services: {
         title: "专家领航，贸易与旅游",
@@ -442,7 +443,7 @@ export const translations = {
         button: "志同道合？请往这边。",
       },
       founder: {
-        quote: "对我来说，全球贸易和旅游是最好的老师。我喜欢它们拓宽视野的方式——让你接触到新的文化、市场、人和思想。但是，我也喜欢跨境交流教会你关于人性的一面——无论我们表面看起来多么不同，我们的核心其实非常相似。我们都渴望繁荣、联系并拥有自己的声音——这是普世的。",
+        quote: "对我来说，全球贸易和旅游是最好的老师。我喜欢它们拓宽视野的方式，让你接触到新的文化、市场、人和思想。但是，我也喜欢跨境交流教会你关于人性的一面，无论我们表面看起来多么不同，我们的核心其实非常相似。我们都渴望繁荣、联系并拥有自己的声音，这是普世的。",
         author: "山姆创始人",
       }
     },
@@ -455,20 +456,21 @@ export const translations = {
     },
     trade_page: {
       hero: {
+        subtitle: "全球采购",
         title_part1: "新品",
         title_part2: "上市。",
-        description: "从高性能车辆到豪华时尚——我们根据您的需求，随时随地为您采购并交付所需商品。",
+        description: "从高性能车辆到豪华时尚，我们根据您的需求，随时随地为您采购并交付所需商品。",
         buttons: {
           imports: "进出口商品",
           export: "出口查询",
         }
       },
       icons: {
-        title: "致敬\n市场标杆。",
-        description: "严格根据您的愿景精选进出口商品。从高端科技到手工艺时尚，我们为您架起全球制造商与您家门口之间的桥梁。",
+        title: "精准\n采购。",
+        description: "我们为您架起全球制造商与您家门口之间的桥梁。我们的采购不局限于商品——我们以绝对的精确度为您采购构建生活方式的基石。",
         buttons: {
-          women: "女装系列",
-          men: "男装系列",
+          women: "时尚与生活方式",
+          men: "科技与创新",
         }
       },
       categories: {
@@ -484,7 +486,7 @@ export const translations = {
         subtitle: "出口解决方案",
         title_part1: "源自 ",
         title_part2: "加纳。",
-        description: "从原始商品到手工艺成品——我们助力加纳卓越产品合法、无缝地出口至全球市场。我们负责物流，您提供产品。",
+        description: "从原始商品到手工艺成品，我们助力加纳卓越产品合法、无缝地出口至全球市场。我们负责物流，您提供产品。",
         steps: [
           "合法性检查",
           "物流准备",
